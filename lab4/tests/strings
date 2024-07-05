@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+course_name = 'Open System Automation'
+course_code = 'OPS445'
+course_number = 445
+
+
+lower_name = course_name.lower()    # Save returned string lower-case string inside new string variable
+print(lower_name)
+
+list_of_strings = lower_name.split(' ')     # Split string on spaces and store the list in a variable
+print(list_of_strings)                      # Display list
+print(list_of_strings[0])                   # Display first item in list

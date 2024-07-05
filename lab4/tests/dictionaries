@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+
+
+dict_york = {'Address': '70 The Pond Rd', 'City': 'Toronto', 'Postal Code': 'M3J3M6', 'Province': 'ON'}
+
+print(dict_york.values())
+
+dict_york.keys()
+
+print(dict_york['Address'])
+print(dict_york['Postal Code'])
+
+dict_york['Country'] = 'Canada'
+print(dict_york)
+print(dict_york.values())
+print(dict_york.keys())
+
+dict_york['Province'] = 'BC'
+print(dict_york)
+print(dict_york.values())
+print(dict_york.keys())
